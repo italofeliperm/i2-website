@@ -86,6 +86,7 @@ body {
 
 .header .logo {
     font-size: 2.5rem;
+    text-transform: lowercase;
     color: #fff;
 }
 
@@ -144,6 +145,7 @@ body {
 .home .slogan {
     color: #eee;
     font-size: 2.5rem;
+    text-transform: none;
     font-weight: 400;
     margin-top: 5rem;
 }
@@ -158,6 +160,7 @@ body {
     outline: none;
     margin-top: 5rem;
     font-size: 2rem;
+    text-transform: uppercase;
     font-weight: 400;
     box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
 }
@@ -247,11 +250,13 @@ body {
 
 .about .row .content h3 {
     font-size: 3rem;
+    text-transform: none;
     color: #36c727;
 }
 
 .about .row .content p {
     font-size: 1.5rem;
+    text-transform: none;
     color: #333;
     padding: 1rem 0;
 }
@@ -311,6 +316,7 @@ body {
 
 .services .row .content p {
     font-size: 1.5rem;
+    text-transform: none;
     color: #333;
     padding: 1rem;
 }
@@ -438,8 +444,9 @@ textarea {
     border-radius: 0.5rem;
     box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
     padding: 0 1rem;
-    margin: 1rem 0;
+    margin: .8rem 0;
     font-size: 1.6rem;
+    text-transform: none;
 }
 
 .contact .row .form-container .inputBox {
@@ -515,6 +522,7 @@ textarea {
     width: 5rem;
     line-height: 4rem;
     font-size: 2rem;
+    text-transform: none;
     background: #fff;
     color: #333;
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
@@ -525,17 +533,19 @@ textarea {
     font-weight: 400;
     padding-left: .5rem;
     font-size: 1.5rem;
+    text-transform: none;
     color: #fff;
 }
 
 
-.faq .row .accordion-container .accordion .accordion-body{
+.faq .row .accordion-container .accordion .accordion-body {
     padding: 1rem;
     color: #444;
     box-shadow: .1rem .1rem .3rem rgba(0, 0, 0, .3);
     font-size: 1.3rem;
     display: none;
 }
+
 
 .faq .row .accordion-container .accordion:nth-child(1) .accordion-body {
     display: block;
