@@ -81,6 +81,7 @@ body {
     top: 0;
     left: 0;
     z-index: 100;
+    flex-wrap: wrap;
 }
 
 .header .logo {
@@ -88,8 +89,9 @@ body {
     color: #fff;
 }
 
-.header .logo i {
-    padding: 0.5rem;
+.header .navbar img {
+    height: 5rem;
+    width: 5rem;
 }
 
 .header .navbar ul {
