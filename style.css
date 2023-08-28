@@ -229,6 +229,7 @@ body {
     min-height: 100vh;
     width: 100vw;
     text-align: center;
+    text-transform: none;
     position: relative;
     overflow: hidden;
 }
@@ -311,12 +312,14 @@ body {
 
 .services .row .content h3 {
     font-size: 3rem;
+    text-align: left;
     color: var(--color);
 }
 
 .services .row .content p {
     font-size: 1.5rem;
     text-transform: none;
+    text-align: left;
     color: #333;
     padding: 1rem;
 }
